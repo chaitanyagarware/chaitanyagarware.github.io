@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chaitanyagarware.github.io/sitemap.xml

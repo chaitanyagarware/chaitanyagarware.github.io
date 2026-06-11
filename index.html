@@ -1,684 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Chaitanya Garware — Cybersecurity Analyst</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Cybersecurity Analyst | Top 1% TryHackMe | Security+ | Offensive Testing + SIEM Detection | 4.0 GPA MS Cybersecurity">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-
-
-<style>
-
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
-
-
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes typing-cursor {
-  from { width: 5px; }
-  to { width: 0; }
-}
-
-
-/* project image zoom effect */
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Chaitanya Garware</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-
-	  <section id="home-section" class="hero">
-		  <div class="home-slider owl-carousel">
-	       <div class="slider-item">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Chaitanya Garware</span></h1>
-
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<script>
-
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'Cybersecurity Analyst  ',
-						'Penetration Tester     ',
-						'SOC Analyst            ',
-						'Threat Hunter          ',
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200);
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>Top 1% TryHackMe &nbsp;&middot;&nbsp; CompTIA Security+ &nbsp;&middot;&nbsp; 4.0 GPA</h2>
-			            <p>
-						  <a href="https://www.linkedin.com/in/chaitanya-garware/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
-						  <a href="https://drive.google.com/file/d/1NK4xwlm7Zio4OKV1j0tITQFORPp3kqRd/view?usp=drive_link" class="btn btn-white btn-outline-white py-3 px-4">Resume</a>
-						</p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
-    </section>
-
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Chaitanya Garware</span></p>
-										<p><span class="title-s">Role: </span> <span>Cybersecurity Analyst</span></p>
-										<p><span class="title-s">Experience: </span> <span>3+ Years</span></p>
-										<p><span class="title-s">Address: </span> <span>Birmingham, Alabama, USA</span></p>
-									  </div>
-									</div>
-								  </div>
-
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-
-									<span>Penetration Testing</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-
-									<span>SIEM — Splunk / QRadar</span> <span class="pull-right">87%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-
-									<span>Kali Linux / Nmap / Burp Suite</span> <span class="pull-right">92%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-
-									<span>Cloud Security (AWS / Azure)</span> <span class="pull-right">82%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-
-									<span>Network Security / Wireshark</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>Cybersecurity analyst with a Top 1% global TryHackMe ranking (#18,799 worldwide), CompTIA Security+, and a 4.0 GPA in MS Cybersecurity at UAB. I operate across the full security lifecycle — from offensive assessments and penetration testing to SIEM-based detection, threat hunting, and incident response. Interned at Palo Alto Networks and Amazon Web Services. Currently Teaching Assistant for Computer Networking at UAB while actively seeking Cybersecurity Analyst and SOC roles.</p>
-
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>TryHackMe:</span> <span>Top 1% Global &middot; Rank #18,799 &middot; 3,015 Events &middot; 130 Rooms</span></li>
-									<li class="d-flex"><span>Certifications:</span> <span>CompTIA Security+ &middot; TryHackMe Jr. Pentester &middot; #1 Ruby League</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Offensive Security, SOC/SIEM, Cloud Security, Cryptography &amp; Blockchain</span></li>
-									<li class="d-flex"><span>Education:</span> <span>MS Cybersecurity UAB (4.0 GPA) &amp; B.E. Computer Engineering (9.36 CGPA)</span></li>
-									<li class="d-flex"><span>Tools:</span> <span>Kali Linux, Splunk, QRadar, Burp Suite, Nmap, Wireshark, OWASP ZAP</span></li>
-									<li class="d-flex"><span>Published:</span> <span>YOLO Yield Estimation — IIIEJ Journal (May 2024)</span></li>
-									<li class="d-flex"><span>Languages:</span> <span>English, Hindi &amp; Marathi</span></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="15">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/chaitanya-garware/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chaitanya Garware | Cybersecurity Analyst & Vulnerability Researcher</title>
+  <meta name="description" content="Portfolio of Chaitanya Garware, a cybersecurity analyst and vulnerability researcher focused on SOC detection, cloud security, AI security, and open-source security advisories.">
+  <meta name="keywords" content="Chaitanya Garware, Cybersecurity Analyst, SOC Analyst, Vulnerability Researcher, Security Engineer, CVE, GHSA, UAB, TryHackMe, Security+">
+  <meta name="author" content="Chaitanya Garware">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="Chaitanya Garware | Cybersecurity Analyst & Vulnerability Researcher">
+  <meta property="og:description" content="SOC, cloud security, AI security, and open-source vulnerability research portfolio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chaitanyagarware.github.io/">
+  <meta property="og:image" content="https://chaitanyagarware.github.io/images/bg_1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://chaitanyagarware.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    :root{
+      --bg:#07111f;--bg-soft:#0b1424;--panel:#101a2d;--panel-2:#0d1728;--text:#edf4ff;--muted:#a9b8cf;
+      --line:rgba(165,180,210,.22);--brand:#36c5f0;--brand-2:#a78bfa;--ok:#22c55e;--warn:#f59e0b;
+      --shadow:0 24px 70px rgba(0,0,0,.32);--radius:24px;--nav-h:78px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 24px)}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 12% 8%,rgba(54,197,240,.16),transparent 30rem),radial-gradient(circle at 88% 4%,rgba(167,139,250,.17),transparent 32rem),var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden}
+    a{color:#7dd3fc;text-decoration:none;transition:color .2s ease,opacity .2s ease}a:hover{color:#e0f2fe;text-decoration:none}.skip-link{position:absolute;left:-999px;top:12px;background:#fff;color:#000;padding:10px 14px;border-radius:10px;z-index:9999}.skip-link:focus{left:12px}.container{max-width:1180px}.site-nav{min-height:var(--nav-h);background:rgba(7,17,31,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.navbar-brand{font-size:1.35rem;font-weight:900;letter-spacing:-.06em;color:#fff!important}.dot{color:var(--brand)}.navbar-toggler{border:1px solid var(--line);padding:.45rem .65rem}.navbar-toggler-icon{width:1.2rem;height:1.2rem}.nav-link{color:#cfdbed!important;font-weight:800;font-size:.92rem;margin-left:.4rem}.nav-link:hover,.nav-link:focus{color:#fff!important}.nav-cta{border:1px solid rgba(54,197,240,.35);border-radius:999px;padding:.45rem .85rem!important;background:rgba(54,197,240,.08)}
+    main{padding-top:var(--nav-h)}section{scroll-margin-top:calc(var(--nav-h) + 26px)}.section{padding:86px 0}.section.compact{padding:64px 0}.eyebrow{display:inline-flex;align-items:center;width:max-content;max-width:100%;gap:.45rem;color:#bae6fd;background:rgba(54,197,240,.10);border:1px solid rgba(54,197,240,.28);padding:7px 12px;border-radius:999px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:900}.hero{min-height:calc(100vh - var(--nav-h));display:flex;align-items:center;padding:72px 0 70px}.hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(330px,.75fr);gap:46px;align-items:center}.hero h1{font-size:clamp(3.1rem,8vw,6.3rem);font-weight:900;line-height:.93;letter-spacing:-.08em;margin:24px 0 22px}.gradient{background:linear-gradient(90deg,#e0f2fe,#38bdf8,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:clamp(1.05rem,2.1vw,1.34rem);color:#d3deef;max-width:760px}.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn-main,.btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;border-radius:999px;padding:12px 18px;font-weight:900;white-space:nowrap}.btn-main{color:#06111f!important;background:linear-gradient(90deg,var(--brand),var(--brand-2));box-shadow:0 16px 36px rgba(54,197,240,.20)}.btn-ghost{color:#eaf3ff!important;background:rgba(16,26,45,.72);border:1px solid var(--line)}.trust-bar{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.trust-pill{border:1px solid var(--line);background:rgba(13,23,40,.78);border-radius:999px;padding:9px 12px;color:#dceaff;font-weight:800;font-size:.84rem}.hero-card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:32px;background:linear-gradient(145deg,rgba(16,26,45,.95),rgba(13,23,40,.88));padding:18px;box-shadow:var(--shadow)}.portrait{aspect-ratio:4/5;border-radius:24px;background:#0b1220;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}.portrait img{width:100%;height:100%;display:block;object-fit:contain;object-position:center bottom}.stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}.stat{background:rgba(3,8,20,.42);border:1px solid var(--line);border-radius:18px;padding:16px}.stat strong{display:block;font-size:1.55rem;line-height:1;color:#fff}.stat span{display:block;color:var(--muted);font-weight:800;font-size:.82rem;margin-top:5px}.section-title{max-width:860px;margin-bottom:34px}.section-title h2{font-size:clamp(2.05rem,4.2vw,3.35rem);font-weight:900;letter-spacing:-.06em;line-height:1.04;margin:14px 0}.section-title p{color:var(--muted);font-size:1.06rem;margin:0}.grid{display:grid;gap:22px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.cardx{min-width:0;height:100%;background:linear-gradient(180deg,rgba(16,26,45,.93),rgba(13,23,40,.88));border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.cardx.highlight{border-color:rgba(54,197,240,.42);background:linear-gradient(180deg,rgba(54,197,240,.12),rgba(13,23,40,.88))}.cardx h3{font-size:1.14rem;font-weight:900;letter-spacing:-.03em;line-height:1.24;margin:0 0 10px;color:#fff}.cardx p,.cardx li{color:#d0dcf0}.cardx p:last-child{margin-bottom:0}.tag-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.tag{display:inline-flex;align-items:center;max-width:100%;font-size:.78rem;font-weight:900;color:#dceaff;background:rgba(165,180,210,.10);border:1px solid rgba(165,180,210,.24);padding:6px 10px;border-radius:999px}.tag.high{border-color:rgba(245,158,11,.45);color:#fde68a}.tag.ok{border-color:rgba(34,197,94,.45);color:#bbf7d0}.timeline{position:relative}.timeline:before{content:"";position:absolute;left:13px;top:7px;bottom:7px;width:2px;background:linear-gradient(var(--brand),var(--brand-2))}.timeline-item{position:relative;padding-left:48px;margin-bottom:22px}.timeline-item:before{content:"";position:absolute;left:5px;top:6px;width:18px;height:18px;border-radius:50%;border:4px solid var(--brand);background:var(--bg)}.date{display:block;color:#93c5fd;font-weight:900;font-size:.83rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}.list-clean{padding-left:1.1rem;margin:0}.list-clean li+li{margin-top:8px}.advisory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.advisory-card{display:flex;flex-direction:column;gap:12px}.advisory-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.advisory-card .meta{color:var(--muted);font-weight:800;font-size:.86rem}.project-img{display:block;aspect-ratio:16/9;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#0b1220;margin-bottom:18px}.project-img img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;transition:transform .35s ease}.cardx:hover .project-img img{transform:scale(1.045)}.resume-panel{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:20px;background:linear-gradient(100deg,rgba(54,197,240,.13),rgba(167,139,250,.13));border:1px solid var(--line);border-radius:32px;padding:28px}.contact-panel{background:linear-gradient(100deg,rgba(54,197,240,.14),rgba(167,139,250,.14));border:1px solid var(--line);border-radius:32px;padding:30px}.contact-grid{display:grid;grid-template-columns:2fr repeat(3,minmax(150px,1fr));gap:14px;margin-top:20px}.contact-item{min-width:0;border:1px solid var(--line);border-radius:18px;padding:16px;background:rgba(3,8,20,.35)}.contact-item span{display:block;color:var(--muted);font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em}.contact-item strong{display:block;margin-top:4px;color:#fff;font-size:1rem;overflow-wrap:anywhere}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}.footer-flex{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.small-note{font-size:.86rem;color:var(--muted);margin-top:10px}.mobile-only{display:none}
+    @media (max-width:991.98px){:root{--nav-h:74px}.hero-grid{grid-template-columns:1fr;gap:32px}.hero{padding-top:54px}.hero-card{max-width:520px}.grid-3,.grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}.advisory-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.resume-panel{grid-template-columns:1fr}.stat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+    @media (max-width:767.98px){.section{padding:66px 0}.section.compact{padding:54px 0}.hero h1{font-size:clamp(2.85rem,16vw,4.2rem)}.hero{padding-top:42px}.grid-2,.grid-3,.grid-4,.contact-grid,.stat-grid{grid-template-columns:1fr}.btn-row a{width:100%}.nav-link{margin-left:0;padding:.65rem 0!important}.nav-cta{padding:.65rem 0!important;border:0;background:transparent}.cardx,.contact-panel,.resume-panel{padding:22px}.portrait{aspect-ratio:1/1}.mobile-only{display:block}.trust-pill{font-size:.8rem}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav" aria-label="Main navigation">
     <div class="container">
-        <div class="row justify-content-center pb-5">
-            <div class="col-md-10 heading-section text-center ftco-animate">
-                <h1 class="big big-2">Resume</h1>
-                <h2 class="mb-4">Resume</h2>
-                <p>Cybersecurity professional with internships at Palo Alto Networks and Amazon Web Services, CompTIA Security+, Top 1% TryHackMe ranking, and a 4.0 GPA in MS Cybersecurity at UAB.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <h1 class="big-4">Experience</h1>
-            <div class="underline"></div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">Jan 2026 – Present</span>
-                    <h2>Teaching Assistant — Computer Networking</h2>
-                    <span class="position">University of Alabama at Birmingham · On-site</span>
-                    <p class="mt-4">Lead weekly labs and deliver guest lectures on core networking topics under Dr. Ragib Hasan.
-                        <ul>
-                            <li>Teach TCP/IP, routing algorithms, socket programming, and network security protocols.</li>
-                            <li>Mentor students in hands-on implementation of UDP/TCP, DNS, and DHCP.</li>
-                            <li>Manage grading for networking, IoT, and IEEE 802.11 wireless curriculum.</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">Sep 2025 – Dec 2025</span>
-                    <h2>Cybersecurity Specialist Intern</h2>
-                    <span class="position">Medlaunch Concepts · Remote, Florida</span>
-                    <p class="mt-4">AWS-focused cybersecurity internship under Robert Dostert.
-                        <ul>
-                            <li>External footprinting and service enumeration using Nmap and Gobuster.</li>
-                            <li>OWASP ZAP vulnerability assessments and shell scripting for automation.</li>
-                            <li>Documented pentest findings and supported team security workflows.</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">May 2023 – Jul 2023</span>
-                    <h2>Cybersecurity Intern</h2>
-                    <span class="position">Palo Alto Networks · Remote</span>
-                    <p class="mt-4">Offensive security and network defense at a global security leader.
-                        <ul>
-                            <li>Boosted threat detection 70% and reduced false positives 20% via IDS rule-tuning.</li>
-                            <li>Executed 5+ vulnerability assessments on live network segments, remediating 15+ critical flaws.</li>
-                            <li>Reduced external attack surface 12% by tuning 10+ firewall policies.</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">Dec 2022 – Feb 2023</span>
-                    <h2>AWS Data Analytics Intern</h2>
-                    <span class="position">Amazon Web Services (AWS) · Remote</span>
-                    <p class="mt-4">Security-focused data analytics on AWS infrastructure.
-                        <ul>
-                            <li>Analyzed 47+ GB of security log data using AWS Athena, Redshift, and QuickSight.</li>
-                            <li>Reduced pipeline run-time 40% with Python and Bash optimization scripts.</li>
-                            <li>Built dashboards for anomaly detection and compliance risk monitoring.</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-		<div class="row">
-            <h1 class="big-4">Education</h1>
-            <div class="underline"></div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">2024 – Present</span>
-                    <h2>MS in Cybersecurity</h2>
-                    <span class="position">University of Alabama at Birmingham (UAB)</span>
-                    <p class="mt-4">Current GPA: 4.0<br>Focused on Cloud Security, Blockchain, Modern Cryptography, Cyber Risk Management, and Network Security.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">2020 – 2024</span>
-                    <h2>Bachelor of Engineering — Computer Engineering</h2>
-                    <span class="position">AISSMS Institute of Information Technology, Pune, India</span>
-                    <p class="mt-4">Grade: 9.36 CGPA<br>Multiple academic honors, led final-year project team. Published YOLO yield estimation research at IIIEJ (May 2024).</p>
-                </div>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-        <div class="row">
-            <h1 class="big-4">Certifications</h1>
-            <div class="underline"></div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">Jul 2025</span>
-                    <h2>CompTIA Security+</h2>
-                    <span class="position">CompTIA &middot; ID: TT6N9QTQ8J44YZB2</span>
-                    <p class="mt-4">Industry-standard security certification covering threat management, cryptography, identity management, and network security. Valid until Jul 2028.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">Aug 2025</span>
-                    <h2>Jr. Penetration Tester</h2>
-                    <span class="position">TryHackMe &middot; ID: THM-EVGRFO5P3K</span>
-                    <p class="mt-4">Hands-on certification covering exploitation techniques, web application security, privilege escalation, and post-exploitation methodologies.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="resume-wrap ftco-animate">
-                    <span class="date">2025</span>
-                    <h2>Top 1% Global — TryHackMe</h2>
-                    <span class="position">Rank #18,799 &middot; #1 Ruby League &middot; #1 Diamond League</span>
-                    <p class="mt-4">3,015 events completed across 130 rooms. Offensive and defensive labs, forensics, Splunk, Windows internals, and real-world attack chain simulation.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-6 text-center ftco-animate">
-                <p><a href="https://drive.google.com/file/d/1NK4xwlm7Zio4OKV1j0tITQFORPp3kqRd/view?usp=sharing" target="_blank" class="btn btn-primary py-4 px-5">Download CV</a></p>
-            </div>
-        </div>
+      <a class="navbar-brand" href="#home" aria-label="Chaitanya Garware home">CG<span class="dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link nav-cta" href="assets/Chaitanya-Garware-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <main id="main-content">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Cybersecurity Analyst · Vulnerability Researcher</span>
+          <h1>Chaitanya<br><span class="gradient">Garware</span></h1>
+          <p class="lead">I build, break, and harden security systems across SOC detection, cloud security, application security, and open-source vulnerability research. MS Cybersecurity graduate from UAB with a 4.0 GPA, CompTIA Security+, Top 1% TryHackMe, and credited GitHub Security Advisories.</p>
+          <div class="btn-row" aria-label="Primary links">
+            <a class="btn-main" href="assets/Chaitanya-Garware-Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a class="btn-ghost" href="assets/Chaitanya-Garware-Resume.pdf" download>Download Resume</a>
+            <a class="btn-ghost" href="https://www.linkedin.com/in/chaitanya-garware/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn-ghost" href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+          <div class="trust-bar" aria-label="Highlights">
+            <span class="trust-pill">Security+ Certified</span>
+            <span class="trust-pill">Top 1% TryHackMe</span>
+            <span class="trust-pill">2nd Place CTF Team</span>
+            <span class="trust-pill">GHSA/CVE Research</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Profile highlights">
+          <div class="portrait"><img src="images/bg_1.png" alt="Portrait of Chaitanya Garware"></div>
+          <div class="stat-grid">
+            <div class="stat"><strong>4.0</strong><span>MS GPA</span></div>
+            <div class="stat"><strong>Top 1%</strong><span>TryHackMe</span></div>
+            <div class="stat"><strong>27/29</strong><span>CTF solves</span></div>
+            <div class="stat"><strong>4</strong><span>Advisory links</span></div>
+          </div>
+        </aside>
+      </div>
     </section>
 
-
-   
-
-<section class="ftco-section" id="project-section">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 heading-section text-center ftco-animate">
-        <h1 class="big big-2">Projects</h1>
-        <h2 class="mb-4">Projects</h2>
-        <p>Cybersecurity, AI/ML, blockchain, and network engineering projects built during academic and professional engagements.</p>
-      </div>
-    </div>
-
-    <div class="row d-flex">
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <a href="https://github.com/chaitanyagarware/opensoc-ai" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-          </a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/chaitanyagarware/opensoc-ai">OpenSOC-AI &#9733; Capstone</a></h3>
-            <p>AI-powered SOC platform applying ML/NLP to threat detection and automated triage. Deployed via Cloudflare Workers + GitHub Pages. MS Capstone Project (2025).</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <a href="https://github.com/chaitanyagarware/quantum-password-manager" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-          </a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/chaitanyagarware/quantum-password-manager">Quantum-Safe Password Manager</a></h3>
-            <p>Password manager using Kyber post-quantum encryption with 95% secure operation coverage, real-time CRUD, and end-to-end encryption.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry">
-          <a href="https://github.com/chaitanyagarware/ERC20-Cryptocurrency" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-          </a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/chaitanyagarware/ERC20-Cryptocurrency">ERC-20 Based Cryptocurrency</a></h3>
-            <p>Secure ERC-20 token built with Solidity, deployed via Remix IDE. Frontend for token interaction built with HTML, CSS, and JavaScript.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <br>
-
-    <div class="row d-flex justify-content-center">
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <a href="https://github.com/chaitanyagarware/Wireshark-Traffic-Analysis" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
-          </a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/chaitanyagarware/Wireshark-Traffic-Analysis">Network Traffic Analysis — Wireshark</a></h3>
-            <p>Packet-level traffic capture and analysis to detect anomalies and intrusions across simulated network environments. PCAP analysis and protocol dissection.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <a href="https://github.com/chaitanyagarware/Cryptography-Python" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
-          </a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/chaitanyagarware/Cryptography-Python">Cryptographic Algorithm Simulation</a></h3>
-            <p>Implemented Caesar Cipher, AES, and RSA encryption in Python demonstrating core cryptographic principles and secure data communication basics.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    <section class="section compact" id="about">
       <div class="container">
-		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="3015">0</strong>
-                <span>TryHackMe Events</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="130">0</strong>
-                <span>THM Rooms Completed</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="15">0</strong>
-                <span>Projects Completed</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Cups of Coffee</span>
-              </div>
-            </div>
-          </div>
+        <div class="section-title">
+          <span class="eyebrow">About</span>
+          <h2>Security work that is practical, evidence-driven, and recruiter-readable.</h2>
+          <p>My strongest signal is the combination of SOC operations, security automation, cloud hardening, and responsible disclosure. I document findings clearly, reproduce issues safely, and translate technical risk into remediation steps.</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="cardx"><h3>SOC & Detection</h3><p>SIEM dashboards, alert triage, log analysis, IDS tuning, MITRE ATT&CK mapping, and analyst-ready summaries.</p></div>
+          <div class="cardx"><h3>Cloud Security</h3><p>AWS security reviews, IAM/S3 hardening, GuardDuty-style monitoring, and cloud log analysis workflows.</p></div>
+          <div class="cardx"><h3>Vulnerability Research</h3><p>Patch diffing, PoC validation, path traversal, SSRF, authz issues, GHSA submissions, and remediation guidance.</p></div>
+          <div class="cardx"><h3>AI Security</h3><p>OpenSOC-AI research, LLM-assisted SOC automation, structured threat extraction, and security-focused technical writing.</p></div>
         </div>
       </div>
+    </section>
 
-
-	
-		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-		<div class="row justify-content-center">
-			<div class="col-md-7 ftco-animate text-center">
-			<h2>More projects on<span> GitHub </span></h2>
-			<div class="heading">
-				<h4>Cybersecurity &middot; AI/ML &middot; Blockchain &middot; Network Engineering — built continuously</h4>
-				<br>
-				<p><a href="https://github.com/chaitanyagarware" class="btn btn-primary py-3 px-5">View My GitHub</a></p>
-			</div>
-			</div>
-		</div>
-		</div>
-		</section>
-
-
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 heading-section text-center ftco-animate">
-        <h1 class="big big-2">Contact</h1>
-        <h2 class="mb-4">Contact Me</h2>
-        <p>Open to Cybersecurity Analyst, SOC Analyst, and Security Operations roles. Let's connect!</p>
-      </div>
-    </div>
-
-    <div class="row d-flex contact-info mb-5">
-      <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-        <div class="align-self-stretch box p-4 text-center">
-          <div class="icon d-flex align-items-center justify-content-center">
-            <span class="icon-map-signs"></span>
-          </div>
-          <h3 class="mb-4">Address</h3>
-          <p>Birmingham, Alabama, USA</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-        <div class="align-self-stretch box p-4 text-center">
-          <div class="icon d-flex align-items-center justify-content-center">
-            <span class="icon-phone2"></span>
-          </div>
-          <h3 class="mb-4">Contact Number</h3>
-          <p><a href="tel:+12057476214">+1 205-747-6214</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-        <div class="align-self-stretch box p-4 text-center">
-          <div class="icon d-flex align-items-center justify-content-center">
-            <span class="icon-paper-plane"></span>
-          </div>
-          <h3 class="mb-4">Email Address</h3>
-          <p><a href="mailto:cgarware@uab.edu">cgarware@uab.edu</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-        <div class="align-self-stretch box p-4 text-center">
-          <div class="icon d-flex align-items-center justify-content-center">
-            <span class="icon-globe"></span>
-          </div>
-          <h3 class="mb-4">Download Resume</h3>
-          <p><a href="https://drive.google.com/file/d/1NK4xwlm7Zio4OKV1j0tITQFORPp3kqRd/view?usp=sharing" target="_blank">Download PDF</a></p>
-        </div>
-      </div>
-
+    <section class="section" id="experience">
       <div class="container">
-        <br><br>
-        <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-          <li class="ftco-animate normal-txt">Find me on </li>
-          <li class="ftco-animate"><a href="https://github.com/chaitanyagarware"><span class="icon-github"></span></a></li>
-          <li class="ftco-animate"><a href="https://www.linkedin.com/in/chaitanya-garware/"><span class="icon-linkedin"></span></a></li>
-          <li class="ftco-animate"><a href="https://wa.me/+12057476214" target="_blank"><span class="icon-whatsapp"></span></a></li>
-          <li class="ftco-animate"><a href="https://t.me/Chaitanya_garware"><span class="icon-telegram"></span></a></li>
-          <li class="ftco-animate"><a href="https://www.instagram.com/chaitanya_garware_/"><span class="icon-instagram"></span></a></li>
-        </ul>
-        <br>
+        <div class="section-title">
+          <span class="eyebrow">Experience</span>
+          <h2>Hands-on security, teaching, and healthcare security work.</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="cardx timeline">
+            <div class="timeline-item">
+              <span class="date">Jan 2026 - May 2026</span>
+              <h3>Graduate Teaching Assistant - Computer Networks, UAB</h3>
+              <p>Led hands-on networking and security labs for 80+ students covering TCP/IP, Linux, packet analysis, network configuration, Wireshark, and troubleshooting workflows.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="date">Sep 2025 - Dec 2025</span>
+              <h3>Cybersecurity Specialist - Medlaunch Concepts</h3>
+              <p>Built SIEM dashboards and alerting workflows, supported vulnerability remediation, and mapped security controls for ISO 27001, HITRUST, HIPAA, and SOC 2 readiness.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="date">May 2023 - Jul 2023</span>
+              <h3>Cybersecurity Intern - Palo Alto Networks AICTE</h3>
+              <p>Deployed and tuned Snort/Suricata IDS rules, validated vulnerabilities with Kali Linux and Nmap, and improved alert fidelity through packet and traffic analysis.</p>
+            </div>
+          </div>
+          <div class="cardx">
+            <h3>Core security stack</h3>
+            <ul class="list-clean">
+              <li><strong>Security Operations:</strong> SOC monitoring, alert triage, incident response, threat hunting, security reporting.</li>
+              <li><strong>SIEM & Detection:</strong> Splunk, QRadar, ELK, Snort, Suricata, IDS/IPS, rule tuning, use-case development.</li>
+              <li><strong>Cloud & Endpoint:</strong> AWS, IAM, S3, CloudTrail-style logs, GuardDuty-style monitoring, EDR/XDR concepts.</li>
+              <li><strong>AppSec & Research:</strong> GHSA reporting, CVE-linked disclosure, PoC writing, path traversal, SSRF, authorization testing.</li>
+              <li><strong>Frameworks:</strong> MITRE ATT&CK, NIST, ISO 27001, HIPAA, SOC 2, HITRUST.</li>
+            </ul>
+            <div class="tag-list"><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">PowerShell</span><span class="tag">Linux</span><span class="tag">Networking</span></div>
+          </div>
+        </div>
       </div>
-    </div>
-</section>
+    </section>
 
-<footer class="ftco-footer ftco-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p>
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Chaitanya Garware &nbsp;&middot;&nbsp; All rights reserved
-		</p>
+    <section class="section compact" id="research">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Research & Advisories</span>
+          <h2>Published research, CVE-linked advisories, and responsible disclosure.</h2>
+          <p>Publicly visible advisory links are prioritized. Restricted GitHub Security Advisory links are included because they are part of the disclosure workflow, but visibility may depend on GitHub advisory permissions.</p>
+        </div>
+        <div class="advisory-grid">
+          <a class="cardx advisory-card highlight" href="https://github.com/fedify-dev/fedify/security/advisories/GHSA-xw9q-2mv6-9fr8" target="_blank" rel="noopener noreferrer">
+            <div class="advisory-top"><span class="tag high">High 8.6</span><span class="tag ok">CVE-2026-50131</span><span class="tag">CWE-918</span></div>
+            <h3>Fedify - incomplete SSRF mitigation / special-use IPv4 bypass</h3>
+            <p>Reported a validation gap where special-use IPv4 ranges could be treated as public destinations in SSRF protection logic.</p>
+            <span class="meta">GitHub Advisory: GHSA-xw9q-2mv6-9fr8</span>
+          </a>
+          <a class="cardx advisory-card highlight" href="https://github.com/langroid/langroid/security/advisories/GHSA-fg23-3346-88f5" target="_blank" rel="noopener noreferrer">
+            <div class="advisory-top"><span class="tag high">High 7.1</span><span class="tag ok">CVE-2026-50181</span><span class="tag">CWE-22</span></div>
+            <h3>Langroid - file tool path traversal outside configured directory</h3>
+            <p>Reported read/write path traversal risk in file tools when caller-controlled paths escaped the intended workspace boundary.</p>
+            <span class="meta">GitHub Advisory: GHSA-fg23-3346-88f5</span>
+          </a>
+          <a class="cardx advisory-card" href="https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-qv97-83w4-ff86" target="_blank" rel="noopener noreferrer">
+            <div class="advisory-top"><span class="tag">GHSA workflow</span><span class="tag">AI agent security</span></div>
+            <h3>ai-agent-automation - GitHub Security Advisory disclosure</h3>
+            <p>Responsible disclosure tracked through GitHub Security Advisories. Public visibility may be restricted until publication.</p>
+            <span class="meta">GitHub Advisory: GHSA-qv97-83w4-ff86</span>
+          </a>
+          <a class="cardx advisory-card" href="https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-cm8g-8jfq-887p" target="_blank" rel="noopener noreferrer">
+            <div class="advisory-top"><span class="tag">GHSA workflow</span><span class="tag">Workflow security</span></div>
+            <h3>ai-agent-automation - workflow/file security advisory</h3>
+            <p>Responsible disclosure and remediation-oriented reporting for workflow/file handling security boundary issues.</p>
+            <span class="meta">GitHub Advisory: GHSA-cm8g-8jfq-887p</span>
+          </a>
+        </div>
+        <div class="grid grid-3" style="margin-top:22px">
+          <div class="cardx"><h3>OpenSOC-AI</h3><p>Co-authored arXiv:2604.26217, focused on parameter-efficient LLM log analysis, structured threat extraction, and SOC automation.</p><div class="tag-list"><span class="tag">LLM Security</span><span class="tag">SOC Automation</span><span class="tag">QLoRA</span></div></div>
+          <div class="cardx"><h3>CTF Performance</h3><p>Placed 2nd as a team at the Southeast Cybersecurity Summit 2026 CTF and solved 27 of 29 challenges personally.</p><div class="tag-list"><span class="tag">6,150 points</span><span class="tag">27/29 solves</span></div></div>
+          <div class="cardx"><h3>Disclosure Style</h3><p>Evidence-first reports with clear summary, affected code, safe PoC, security impact, suggested fix, and regression test ideas.</p><div class="tag-list"><span class="tag">PoC</span><span class="tag">Patch diff</span><span class="tag">Remediation</span></div></div>
+        </div>
       </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Projects</span>
+          <h2>Portfolio projects with clean aspect ratios and clear security signal.</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="cardx">
+            <a class="project-img" href="https://github.com/chaitanyagarware/opensoc-ai" target="_blank" rel="noopener noreferrer"><img src="images/proj_1.jpg" alt="OpenSOC-AI project preview"></a>
+            <h3><a href="https://github.com/chaitanyagarware/opensoc-ai" target="_blank" rel="noopener noreferrer">OpenSOC-AI</a></h3>
+            <p>LLM-assisted SOC research for log analysis, threat extraction, MITRE ATT&CK mapping, and structured analyst output.</p>
+            <div class="tag-list"><span class="tag">Python</span><span class="tag">LLM</span><span class="tag">SOC</span></div>
+          </article>
+          <article class="cardx">
+            <a class="project-img" href="https://github.com/chaitanyagarware/aws-cloud-security-scanner" target="_blank" rel="noopener noreferrer"><img src="images/proj_4.jpg" alt="AWS cloud security scanner preview"></a>
+            <h3><a href="https://github.com/chaitanyagarware/aws-cloud-security-scanner" target="_blank" rel="noopener noreferrer">AWS Cloud Security Scanner</a></h3>
+            <p>Cloud posture review and security automation project for IAM, S3, logging, and practical AWS hardening workflows.</p>
+            <div class="tag-list"><span class="tag">AWS</span><span class="tag">Python</span><span class="tag">Cloud Security</span></div>
+          </article>
+          <article class="cardx">
+            <a class="project-img" href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer"><img src="images/proj_2.jpg" alt="Vulnerability research project preview"></a>
+            <h3><a href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer">Vulnerability Research Lab</a></h3>
+            <p>Patch-diffing, PoC reproduction, responsible disclosure writeups, and security advisory evidence packs.</p>
+            <div class="tag-list"><span class="tag">AppSec</span><span class="tag">GHSA</span><span class="tag">PoC</span></div>
+          </article>
+          <article class="cardx">
+            <a class="project-img" href="https://github.com/chaitanyagarware/quantum-password-manager" target="_blank" rel="noopener noreferrer"><img src="images/proj_3.jpg" alt="Quantum password manager project preview"></a>
+            <h3><a href="https://github.com/chaitanyagarware/quantum-password-manager" target="_blank" rel="noopener noreferrer">Quantum Password Manager</a></h3>
+            <p>Password security project exploring encryption, credential protection, and secure UI patterns.</p>
+            <div class="tag-list"><span class="tag">Crypto</span><span class="tag">Security UX</span><span class="tag">Web</span></div>
+          </article>
+          <article class="cardx">
+            <a class="project-img" href="https://chaitanyagarware.github.io/" target="_blank" rel="noopener noreferrer"><img src="images/proj_5.jpg" alt="Portfolio website preview"></a>
+            <h3><a href="https://chaitanyagarware.github.io/" target="_blank" rel="noopener noreferrer">Portfolio Website</a></h3>
+            <p>Responsive GitHub Pages portfolio with clean UX, recruiter-facing copy, resume link, and advisory highlights.</p>
+            <div class="tag-list"><span class="tag">GitHub Pages</span><span class="tag">Responsive</span><span class="tag">SEO</span></div>
+          </article>
+          <article class="cardx">
+            <a class="project-img" href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer"><img src="images/proj_4.png" alt="Security automation preview"></a>
+            <h3><a href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer">Security Automation</a></h3>
+            <p>Python/Bash workflows for security review, log analysis, evidence packaging, and repeatable triage.</p>
+            <div class="tag-list"><span class="tag">Automation</span><span class="tag">Python</span><span class="tag">Security Ops</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact" id="resume">
+      <div class="container">
+        <div class="resume-panel">
+          <div>
+            <span class="eyebrow">Resume</span>
+            <h2 style="font-size:clamp(1.8rem,3vw,2.6rem);font-weight:900;letter-spacing:-.05em;margin:12px 0 8px">One-click resume for recruiters.</h2>
+            <p style="margin:0;color:#d0dcf0">The latest uploaded resume PDF is included directly in this GitHub Pages repo under <strong>assets/Chaitanya-Garware-Resume.pdf</strong>.</p>
+          </div>
+          <div class="btn-row" style="margin-top:0">
+            <a class="btn-main" href="assets/Chaitanya-Garware-Resume.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+            <a class="btn-ghost" href="assets/Chaitanya-Garware-Resume.pdf" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <span class="eyebrow">Contact</span>
+          <h2 style="font-size:clamp(2rem,4vw,3rem);font-weight:900;letter-spacing:-.06em;margin:16px 0 8px">Let’s talk security.</h2>
+          <p style="max-width:760px;color:#d0dcf0;margin:0">Open to Cybersecurity Analyst, SOC Analyst, Security Engineer, Cloud Security, Vulnerability Management, and GRC-oriented roles.</p>
+          <div class="contact-grid">
+            <a class="contact-item" href="mailto:chaitanya.garware27@gmail.com"><span>Email</span><strong>chaitanya.garware27@gmail.com</strong></a>
+            <a class="contact-item" href="https://www.linkedin.com/in/chaitanya-garware/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>/in/chaitanya-garware</strong></a>
+            <a class="contact-item" href="https://github.com/chaitanyagarware" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>@chaitanyagarware</strong></a>
+            <div class="contact-item"><span>Location</span><strong>Birmingham, AL</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div>© 2026 Chaitanya Garware. Built for GitHub Pages.</div>
+      <div>Security · Cloud · SOC · Vulnerability Research</div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen">
-  <svg class="circular" width="48px" height="48px">
-    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
-  </svg>
-</div>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/scrollax.min.js"></script>
-
-<script src="js/main.js"></script>
-
-  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    document.querySelectorAll('.navbar-collapse a').forEach(function(link){
+      link.addEventListener('click',function(){
+        var nav=document.querySelector('.navbar-collapse');
+        if(nav && nav.classList.contains('show')){ $('.navbar-collapse').collapse('hide'); }
+      });
+    });
+  </script>
+</body>
 </html>
