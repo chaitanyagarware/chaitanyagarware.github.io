@@ -1,14 +1,17 @@
 # Chaitanya Garware Portfolio
 
-Premium static GitHub Pages portfolio for cybersecurity, SOC, cloud security, and vulnerability research work.
+Premium static GitHub Pages portfolio.
 
-## Structure
+## Deploy
 
-- `index.html` - production single-page portfolio
-- `css/portfolio.css` - design system, responsive layout, motion, and accessibility rules
-- `js/portfolio.js` - scroll reveal, count-up metrics, timeline accordion, email copy toast, and ambient canvas
-- `assets/Chaitanya-Garware-Resume.pdf` - recruiter resume link
+Extract this ZIP and commit the contents directly to the `chaitanyagarware.github.io` repository root.
 
-## Deployment
+Updated UX:
+- All timeline and advisory content is open by default
+- No hidden plus/dropdown sections
+- Hover effect is a soft iOS-style lift/scale, not tilt
+- Animated water-drop ambient hero background
+- Mobile responsive navigation and layout
+- Reduced-motion accessibility support
 
-This repository is ready for GitHub Pages. Push to the `main` branch and enable Pages from the repository root.
+No build step required.
