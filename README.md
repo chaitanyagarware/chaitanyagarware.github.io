@@ -1,18 +1,14 @@
 # Chaitanya Garware Portfolio
 
-Responsive GitHub Pages portfolio for Chaitanya Garware.
+Premium static GitHub Pages portfolio for cybersecurity, SOC, cloud security, and vulnerability research work.
 
-## Included
+## Structure
 
-- `index.html` - main portfolio page
-- `assets/Chaitanya-Garware-Resume.pdf` - downloadable resume PDF
-- `robots.txt` and `sitemap.xml` - basic SEO support
-- `404.html` - GitHub Pages fallback
+- `index.html` - production single-page portfolio
+- `css/portfolio.css` - design system, responsive layout, motion, and accessibility rules
+- `js/portfolio.js` - scroll reveal, count-up metrics, timeline accordion, email copy toast, and ambient canvas
+- `assets/Chaitanya-Garware-Resume.pdf` - recruiter resume link
 
-## Update notes
+## Deployment
 
-- Fixed fixed-navbar anchor overlap with `scroll-padding-top` and section scroll margins.
-- Rebuilt responsive card grids to prevent text clipping and broken contact cards.
-- Added verified public advisory links for Fedify and Langroid, plus supplied ai-agent-automation advisory links.
-- Added direct resume open/download calls-to-action.
-- Preserved GitHub Pages compatibility with static HTML/CSS/JS only.
+This repository is ready for GitHub Pages. Push to the `main` branch and enable Pages from the repository root.
