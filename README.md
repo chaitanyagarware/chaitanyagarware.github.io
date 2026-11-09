@@ -1,17 +1,13 @@
-# Chaitanya Garware Portfolio
+# Chaitanya Garware — Portfolio
 
-Premium static GitHub Pages portfolio.
+A responsive, static portfolio for GitHub Pages. No build step or dependencies are required.
 
-## Deploy
+## Preview
 
-Extract this ZIP and commit the contents directly to the `chaitanyagarware.github.io` repository root.
+Open `index.html` in a browser. An internet connection loads the optional Google Fonts; fallback fonts are provided.
 
-Updated UX:
-- All timeline and advisory content is open by default
-- No hidden plus/dropdown sections
-- Hover effect is a soft iOS-style lift/scale, not tilt
-- Animated water-drop ambient hero background
-- Mobile responsive navigation and layout
-- Reduced-motion accessibility support
+## Publish to GitHub Pages
 
-No build step required.
+Copy `index.html`, `style.css`, `script.js`, `robots.txt`, and `sitemap.xml` to the root of the `chaitanyagarware.github.io` repository, commit and push to the branch configured for GitHub Pages. GitHub Pages will publish the update automatically. Keep any other files you need in your repository; these files form the complete new portfolio.
+
+The previous resume is intentionally not included, so outdated or private contact information is not republished. Public profile and research links are included. Review your professional details before publishing.
