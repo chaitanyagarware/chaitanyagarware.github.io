@@ -1,13 +1,14 @@
-# Chaitanya Garware — Portfolio
+# Chaitanya Garware — Responsive Portfolio
 
-A responsive, static portfolio for GitHub Pages. No build step or dependencies are required.
+This is the complete light-design portfolio. It adjusts its layout and type for phones, tablets, laptops and wide screens. It needs no build step.
 
 ## Preview
+Open `index.html` in a browser. Google Fonts load over the internet; system fallback fonts are included.
 
-Open `index.html` in a browser. An internet connection loads the optional Google Fonts; fallback fonts are provided.
+## Update the existing GitHub Pages website
+1. Extract this ZIP.
+2. In GitHub Desktop, open the repository via **Show in Explorer**.
+3. Copy all six files inside the extracted folder into the repository root (the folder that contains the existing index.html). Choose **Replace** when asked. Do not copy the ZIP itself or the outer extracted folder.
+4. In GitHub Desktop, review Changes, commit, and push to the branch configured for GitHub Pages. Check deployment and refresh the site after publishing.
 
-## Publish to GitHub Pages
-
-Copy `index.html`, `style.css`, `script.js`, `robots.txt`, and `sitemap.xml` to the root of the `chaitanyagarware.github.io` repository, commit and push to the branch configured for GitHub Pages. GitHub Pages will publish the update automatically. Keep any other files you need in your repository; these files form the complete new portfolio.
-
-The previous resume is intentionally not included, so outdated or private contact information is not republished. Public profile and research links are included. Review your professional details before publishing.
+This package does not include the previous resume. Existing files on GitHub stay in the repository unless you separately remove them; older commits retain history.
